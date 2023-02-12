@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz_app.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="container">
+        <div class="questions_container">
+          <h1>Question</h1>
+          <p id="question">Javascript is an _______ language?</p>
+        </div>
+
+        <div class="answer_container">
+          <ul class="options" style="list-style: none">
+            <li>
+              <input type="radio" id="option1" name="opt" class="answer_element" />
+              <label for="option1" id="option11">Object-Oriented </label>
+            </li>
+            <li>
+              <input type="radio" id="option2" name="opt" class= "answer_element"/>
+              <label for="option2" id="option22">Object-Based.</label>
+            </li>
+            <li>
+              <input type="radio" id="option3" name="opt" class="answer_element" />
+              <label for="option3" id="option33">Procedural</label>
+            </li>
+            <li>
+              <input type="radio" id="option4" name="opt" class="answer_element" />
+              <label for="option4" id="option44">None of the above</label>
+            </li>
+          </ul>
+        </div>
+        <div class="submit_container">
+          <button type="submit" id="buttonn">SUBMIT</button>
+        </div>
+
+        <div  id="final_result_container" class="hide">
+            
+             
+        </div>
+        
+      </div>
+    </div>
+
+    <script src="quiz_app.js"></script>
+  </body>
+</html>
