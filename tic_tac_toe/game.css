@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav
+{
+    height: 5rem;
+    width: 100%;
+    background-color: #8a2be2;
+    color: burlywood;
+    padding-left: 4px;
+    box-sizing: border-box;
+    padding-top: 4px;
+    font-size: 4rem;
+}
+.main_container
+{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grid_container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3,15vh);
+}
+.box{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+.none_top
+{
+     border-top: 0;
+}
+.none_left{
+    border-left: 0;
+}
+.none_right
+{
+    border-right: 0;
+}
+.none_bottom{
+    border-bottom: 0;
+}
+.side_work
+{
+    height: 20%;
+    width: 20%;
+    /* border: 2px solid red; */
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button button{
+    height: 2rem;
+    width: 12vw;
+    margin-top: 2rem;
+    border-radius: 20%;
+}
+.turn_name{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width:800px){
+     .grid_container{
+        grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3,15vh);
+     }
+     .button button{
+        
+        width: 16vw;
+         
+    }
+}
