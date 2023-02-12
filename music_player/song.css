@@ -1,0 +1,79 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.main_div
+{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.main_container
+{
+    height: 90vh;
+    width: 50vw;
+    text-align: center;
+    /* border: 2px solid red; */
+    border-radius: 2rem;
+    box-shadow: 0rem 1.2rem 3rem rgba(0,0,0,0.2);
+    padding: 1rem;
+    background-color: bisque;
+    display: grid;
+    place-items: center;
+}
+#title_name{
+   text-transform: uppercase;
+   color: black;
+   letter-spacing: 0.2rem;
+   /* margin-bottom: 1rem; */
+   font-size: 2rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#artist_name{
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    /* margin-bottom: 1.5rem; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imgcontainer{
+    height: 90%;
+    width: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.controls .btn 
+{
+    /* background-color: white; */
+    /* margin-top: 1rem; */
+    font-size: 1.5rem;
+
+    
+}
+.controls .btn:hover
+{
+    transform: scale(2);
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+.anime
+{
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
