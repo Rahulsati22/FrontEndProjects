@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #676a76;
+}
+#input_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    width: 70%;
+    color: white;
+    height: 3rem;
+    border-radius: 3rem;
+    background-color: black;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-right: 4px;
+}
+i{
+    font-size: 3rem;
+    margin-left: 2px;
+    color: rgb(21, 253, 175);
+    cursor: pointer;
+}
+i:hover{
+    transform: scale(1.2);
+    margin-left: 6px;
+}
+#main_container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+#input_box{
+    height: 20vh;
+    width: 100vw;
+     
+}
+#temperature{
+    height: 40vh;
+    width: 30%;
+    border: 1px solid gray;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 2rem;
+    box-sizing: border-box;
+    /* background-image: url("https://images.unsplash.com/photo-1560977501-7cb367eccebe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80"); */
+    /* background-size: contain; */
+    color: white;
+    background-color: #1d1e24;
+    padding-top: 20px;
+    
+}
+
+#windspeed{
+    height: 40vh;
+    width: 30%;
+    border: 1px solid gray;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 2rem;
+    box-sizing: border-box;
+    /* background-image: url("https://images.unsplash.com/photo-1533985062386-ef0837f31bc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
+    /* background-size: contain; */
+    color: white;
+    background-color: #1d1e24;
+    padding-top: 20px;
+
+}
+#humidity{
+    height: 40vh;
+    width: 30%;
+    border: 1px solid gray;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 2rem;
+    box-sizing: border-box;
+    /* background-image: url("https://images.unsplash.com/photo-1578653038026-f06c760f1833?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"); */
+    /* background-size: contain; */
+    color: white;
+    background-color: #1d1e24;
+    padding-top: 20px;
+
+}
+.heading{
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: chartreuse;
+}
